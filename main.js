@@ -70,11 +70,11 @@ async function tweet(tmessage)
 
 async function sendMessage(message) {
     //harrisons test channel
-    if(client.channels.cache.get("651256993457373194"))
-        client.channels.cache.get("651256993457373194").send(message)
+    if(client.channels.cache.get(""))
+        client.channels.cache.get("").send(message)
     //havens channel rip
-    if(client.channels.cache.get("734850499211427981"))
-        client.channels.cache.get("734850499211427981").send(message)
+    if(client.channels.cache.get(""))
+        client.channels.cache.get("").send(message)
   }
 
 async function get_top ()
